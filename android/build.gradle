@@ -76,4 +76,5 @@ dependencies {
     implementation 'androidx.concurrent:concurrent-futures-ktx:1.1.0'
     //noinspection GradleDependency: 1.7+ requires Kotlin 2
     implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3'
+    implementation 'org.jetbrains.kotlin:kotlin-serialization-compiler-plugin-embeddable:1.9.23'
 }
