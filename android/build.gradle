@@ -10,9 +10,10 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.6.1'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
+        classpath 'com.android.tools.build:gradle:8.9.0'
+        
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.20"
+        classpath "org.jetbrains.kotlin:kotlin-serialization:2.1.20"
     }
 }
 
@@ -38,7 +39,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 
     sourceSets {
